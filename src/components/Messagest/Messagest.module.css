@@ -1,0 +1,49 @@
+.messagests {
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    grid-template-rows: 8fr 4fr;
+}
+
+.users, .textMessagest{
+    margin: 10px;
+}
+.user {
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.link:hover{
+    color:  brown;
+}
+.link:active{
+    color: darkgoldenrod;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.messagest{
+    font-size: 16px;
+    color: white;
+}
+
+.textMessagest{
+    
+}
+
+.addMessagest{
+    grid-column-start: 2;
+    margin-top: 20px;
+}
+.addMessagest textarea{
+    height: 80px;
+    width: 300px;
+    margin-bottom: -6px;
+}
+.buttonAddMess{
+    margin: 5px;
+}

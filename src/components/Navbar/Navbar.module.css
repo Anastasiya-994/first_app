@@ -1,0 +1,17 @@
+.navbar{
+    grid-area: navbar;
+    background-color: brown;
+    min-height: 350px;
+  }
+
+  .item{
+      margin: 15px;
+      color: burlywood;
+  }
+  .link{
+      text-decoration: none;
+      color: burlywood;
+  }
+  .link:active{
+      color: midnightblue;
+  }

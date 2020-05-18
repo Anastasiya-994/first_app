@@ -1,0 +1,10 @@
+.error{
+    color: red;
+}
+
+.errorBlock{
+    border: solid 2px red;
+    color: rgb(114, 46, 46);
+    text-align: center;
+    width: 200px;
+}
